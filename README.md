@@ -1,9 +1,9 @@
 `automaton task` - http://indigounited.com/automaton
 
-rm
+symlink
 ===
 
-Remove file or set of files.
+Create a symlink.
 
 *Indigo United 2013*
 

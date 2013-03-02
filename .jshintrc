@@ -1,8 +1,11 @@
 {
     "predef": [
-        "console",
-        "require",
-        "define"
+        "describe",
+        "it",
+        "before",
+        "beforeEach",
+        "after",
+        "afterEach"
     ],
 
     "node": true,
@@ -30,7 +33,7 @@
     "boss": false,
     "debug": false,
     "eqnull": true,
-    "es5": false,
+    "es5": true,
     "esnext": false,
     "evil": false,
     "expr": false,
@@ -55,4 +58,3 @@
     "onevar": false,
     "white": true
 }
-

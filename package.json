@@ -1,10 +1,10 @@
 {
   "name": "autofile-symlink",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Create a symlink.",
   "main": "autofile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,14 @@
     "autofile",
     "automaton",
     "task",
-    "symlink",
+    "symlink"
   ],
   "author": "Indigo United",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "rimraf": "~2.1.4",
+    "mocha": "~1.8.1",
+    "automaton": "~0.1.4"
+  }
 }
