@@ -1,13 +1,14 @@
+/*global describe, it, beforeEach, after*/
+
 'use strict';
 
-var expect    = require('expect.js'),
-    isFile    = require('./util/is-file'),
-    isDir     = require('./util/is-dir'),
-    fs        = require('fs'),
-    rimraf    = require('rimraf'),
-    symlink   = require('../autofile'),
-    automaton = require('automaton').create()
-;
+var expect    = require('expect.js');
+var isFile    = require('./util/isFile');
+var isDir     = require('./util/isDir');
+var fs        = require('fs');
+var rimraf    = require('rimraf');
+var symlink   = require('../autofile');
+var automaton = require('automaton').create();
 
 describe('symlink', function () {
     var target = __dirname + '/tmp/';

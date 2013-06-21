@@ -1,11 +1,6 @@
 {
     "predef": [
-        "describe",
-        "it",
-        "before",
-        "beforeEach",
-        "after",
-        "afterEach"
+        "console"
     ],
 
     "node": true,
